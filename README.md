@@ -1,4 +1,5 @@
 # Written by 0xSpec
+Contributors: Rhys (fixed some errors)
 # Secure-PHP-Programming
 #Secure PHP Coding
 
